@@ -4,19 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css"></linkrel>
 </head>
 <body>
-    <div class = "filters">
-        <h2>Размер</h2>
-        <div class = "size">
-            <input type="checkbox" name="size[] " value="36">36
-            <input type="checkbox" name="size[] " value="37">37
-            <input type="checkbox" name="size[] " value="38">38
+    <div id="filters">
+        <div class="developer"><h2>Производитель</h2>
+          <select id="developer">
+            <option value="">-- Все производители --</option>
+            <option value="Logitech">Logitech</option>
+            <option value="Razer">Razer</option>
+            <option value="Bloody">Bloody</option>
+            <option value="Zowie">Zowie</option>   
+          </select>     
         </div>
-    </div>
+      
+        <div class="connection"><h2>Тип подключения</h2>
+          <div id="connection">
+            <label><input type="checkbox" class="btn" value="wire">Проводной</label><br>
+            <label><input type="checkbox" class="btn" value="wireless">Беспроводной</label><br>
 
-    <div class = "content"></div>
+          </div>
+        </div>
 
+        <div class="color"><h2>Цвет</h2>
+            <div id="color">
+              <label><input type="checkbox" class="btn" value="black">Черный</label><br>
+              <label><input type="checkbox" class="btn" value="white">Белый</label><br>
+                <label><input type="checkbox" class="btn" value="pink">Розовый</label><br>
+            </div>
+          </div>
+
+          <div class="form"><h2>Форма</h2>
+            <div id="form">
+              <label><input type="checkbox" class="btn" value="assim">Ассиметричный</label><br>
+              <label><input type="checkbox" class="btn" value="simm">Симметричный</label><br>
+            </div>
+          </div>
+          <div class="face"><h2>Поверхность</h2>
+            <div id="face">
+              <label><input type="checkbox" class="btn" value="glossy">Глянцевый</label><br>
+              <label><input type="checkbox" class="btn" value="mat">Матовый</label><br>
+            </div>
+          </div>
+      
+        <div class="price"><h2>Цена</h2>
+          <div class="price-input">
+             От: <input class="input-text" type="text" value="" id="price-min">&nbsp;&nbsp;
+          </div>
+          <div class="price-input">
+           До: <input class="input-text" type="text" value="" id="price-max">&nbsp;₽&nbsp;
+          </div>
+        </div>
+      </div>
+      
+      <div id="goods"></div>
     <script src ="script.js"></script>
+
 </body>
 </html>

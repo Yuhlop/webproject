@@ -1,0 +1,23 @@
+#filters {
+    border: 1px solid black;
+    float: left;
+    margin: 0;
+  }
+  .price-input {
+    float: left;
+  }
+  .input-text {
+    width: 50px;
+  }
+  .single-goods {
+    border: 1px solid yellow;
+    margin: 10px;
+    float: center;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+  }
+  .single-goods img {
+    width: 150px;
+  }

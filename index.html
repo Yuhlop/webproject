@@ -7,9 +7,21 @@
     <link rel="stylesheet" type="text/css" href="style.css"></linkrel>
 </head>
 <body>
+
+  <!-- Заголовок сайта -->
+  <header class="site-header">
+    <h1>Mouse Shop</h1>
+</header>
+<script src="script.js"></script>
+<!-- Конец заголовка -->
+
+<!-- Картинка корзины -->
   <button class="cart" id="cart">
-    <img class="cart__image" src="https://codelab.pro/wp-content/uploads/2023/02/9ztco4iq.png" alt="Cart" />
+    <img class="cart__image" src=Images/cartImage.png alt="Cart" width="125" height="125"/>
     <div class="cart__num" id="cart_num">0</div>
+    <!-- Конец картинки корзины -->
+
+<!-- Кнопки и ФИЛЬТР -->
   </button>
     <div id="filters">
         <div class="developer"><h2>Производитель</h2>
@@ -60,7 +72,9 @@
           </div>
         </div>
       </div>
-      
+      <!-- Конец ФИЛЬТРОВ -->
+
+      <!-- КАРТОЧКИ ТОВАРОВ -->
       <div id="goods"></div>
       <div class="popup">
         <div class="popup__container" id="popup_container">
@@ -105,6 +119,7 @@
         </div>
       </div>
     <script src ="script.js"></script>
+    <!-- КОНЕЦ КАРТОЧЕК ТОВАРОВ -->
 
 </body>
 </html>

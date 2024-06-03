@@ -130,7 +130,7 @@ class Product {
   }
 }
 
-const cardAddArr = Array.from(document.querySelectorAll(".card__add"));
+cardAddArr = Array.from(document.querySelectorAll(".card__add"));
 const cartNum = document.querySelector("#cart_num");
 
 class Cart {

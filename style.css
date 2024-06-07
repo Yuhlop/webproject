@@ -1,5 +1,14 @@
+/* ЗАГОЛОВОК */
+.site-header{
+  background-color: #4CAF50; /* Цвет фона заголовка */
+  color: white; /* Цвет текста */
+  padding: 20px; /* Внутренние отступы */
+  text-align: center; /* Выравнивание текста по центру */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для заголовка */
+}
+/* ФИЛЬТРЫ */
 #filters {
-    border: 1px solid black;
+    border: 1px solid rgb(0, 255, 128);
     float: left;
     margin: 0;
   }
@@ -9,8 +18,9 @@
   .input-text {
     width: 50px;
   }
+  /* Обводка у карточки товара */
   .single-goods {
-    border: 1px solid yellow;
+    border: 1px solid rgb(0, 255, 128);
     margin: 10px;
     float: center;
     text-align: center;
@@ -18,6 +28,7 @@
     flex-flow: column;
     height: 100%;
   }
+   /* Картинка в карточке товара */
   .single-goods img {
     width: 150px;
   }
